@@ -1,0 +1,15 @@
+.grid-page { min-height: 100vh; padding: 2rem; max-width: 1200px; margin: 0 auto; }
+.grid-header { display: flex; align-items: flex-start; justify-content: space-between; gap: 1.5rem; margin-bottom: 1.75rem; flex-wrap: wrap; }
+.grid-header h1 { font-size: 2rem; font-weight: 800; margin-bottom: 0.25rem; }
+.subtitle { color: rgba(255,255,255,0.45); font-size: 0.9rem; }
+.search-wrap { position: relative; display: flex; align-items: center; }
+.search-wrap svg { position: absolute; left: 12px; width: 16px; height: 16px; color: rgba(255,255,255,0.35); pointer-events: none; }
+.search-wrap input { padding: 0.65rem 1rem 0.65rem 2.5rem; border-radius: 12px; border: 1px solid rgba(255,255,255,0.1); background: rgba(255,255,255,0.05); color: white; font-size: 0.9rem; outline: none; width: 260px; font-family: inherit; transition: border-color 0.2s; }
+.search-wrap input::placeholder { color: rgba(255,255,255,0.3); }
+.search-wrap input:focus { border-color: rgba(0,242,254,0.4); }
+.category-tabs { display: flex; gap: 0.5rem; margin-bottom: 2rem; flex-wrap: wrap; }
+.cat-tab { padding: 0.45rem 1rem; border-radius: 999px; border: 1px solid rgba(255,255,255,0.1); background: transparent; color: rgba(255,255,255,0.5); font-size: 0.82rem; font-weight: 500; cursor: pointer; transition: all 0.2s; font-family: inherit; }
+.cat-tab:hover { border-color: rgba(0,242,254,0.3); color: rgba(255,255,255,0.8); }
+.cat-tab.active { background: linear-gradient(135deg,rgba(0,242,254,0.15),rgba(79,172,254,0.15)); border-color: rgba(0,242,254,0.5); color: #00f2fe; }
+.product-grid { display: grid; grid-template-columns: repeat(auto-fill,minmax(280px,1fr)); gap: 1.5rem; }
+.no-results { text-align: center; padding: 4rem; color: rgba(255,255,255,0.35); }

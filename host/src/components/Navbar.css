@@ -1,0 +1,11 @@
+.navbar { position: sticky; top: 0; z-index: 100; background: rgba(11,15,25,0.85); backdrop-filter: blur(20px); -webkit-backdrop-filter: blur(20px); border-bottom: 1px solid rgba(255,255,255,0.07); }
+.navbar-inner { max-width: 1200px; margin: 0 auto; padding: 0 2rem; height: 64px; display: flex; align-items: center; gap: 2rem; }
+.brand { display: flex; align-items: center; gap: 0.6rem; text-decoration: none; flex-shrink: 0; }
+.brand-icon { font-size: 1.25rem; color: #00f2fe; }
+.brand-name { font-size: 1.1rem; font-weight: 700; color: rgba(255,255,255,0.85); }
+.nav-links { display: flex; align-items: center; gap: 0.25rem; flex: 1; }
+.nav-link { padding: 0.4rem 0.875rem; border-radius: 10px; text-decoration: none; color: rgba(255,255,255,0.5); font-size: 0.875rem; font-weight: 500; transition: all 0.2s; }
+.nav-link:hover { background: rgba(255,255,255,0.06); color: rgba(255,255,255,0.85); }
+.nav-link.active { background: rgba(0,242,254,0.1); color: #00f2fe; }
+.navbar-end { margin-left: auto; flex-shrink: 0; }
+.badge-placeholder { width: 44px; height: 44px; border-radius: 12px; background: rgba(255,255,255,0.03); }

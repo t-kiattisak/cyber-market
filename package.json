@@ -1,0 +1,12 @@
+{
+  "name": "mfe-advance",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "concurrently \"npm run dev --prefix cart\" \"npm run dev --prefix product\" \"npm run dev --prefix host\" \"npm run dev --prefix profile\"",
+    "install:all": "npm install --prefix cart && npm install --prefix product && npm install --prefix host && npm install --prefix profile"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}

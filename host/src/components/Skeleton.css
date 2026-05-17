@@ -1,0 +1,10 @@
+.skeleton-wrap { padding: 2rem; max-width: 1200px; margin: 0 auto; }
+.skeleton-bar { height: 40px; border-radius: 8px; background: rgba(255,255,255,0.06); margin-bottom: 2rem; }
+.skeleton-grid { display: grid; grid-template-columns: repeat(auto-fill,minmax(280px,1fr)); gap: 1.5rem; }
+.skeleton-card { background: rgba(255,255,255,0.03); border: 1px solid rgba(255,255,255,0.06); border-radius: 20px; overflow: hidden; }
+.skeleton-img { height: 200px; }
+.skeleton-body { padding: 1rem 1.25rem 1.25rem; display: flex; flex-direction: column; gap: 0.6rem; }
+.skeleton-line { height: 12px; border-radius: 6px; }
+.w30 { width: 30%; } .w50 { width: 50%; } .w60 { width: 60%; } .w80 { width: 80%; }
+.shimmer { background: linear-gradient(90deg,rgba(255,255,255,0.04) 0%,rgba(255,255,255,0.09) 50%,rgba(255,255,255,0.04) 100%); background-size: 200% 100%; animation: shimmer 1.6s infinite; }
+@keyframes shimmer { 0%{background-position:200% 0} 100%{background-position:-200% 0} }
